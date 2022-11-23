@@ -1,0 +1,16 @@
+footer{
+    background-color: #add4d3;
+    padding: 10px 0;
+}
+h1{
+    font-size: 22px;
+    text-align: center;
+}
+img{
+    width: 50px;
+    border-radius: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

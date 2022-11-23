@@ -1,0 +1,20 @@
+.conteiner{
+    width: 100vw;
+    background-color: #add4d3;
+}
+nav{
+    text-align: center;
+    height: 70px;
+}
+nav h1,h2,li{
+    display: inline-block;
+}
+li{
+    font-size: 18px;
+    margin: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

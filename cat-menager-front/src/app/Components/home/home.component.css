@@ -1,0 +1,17 @@
+.conteiner{
+    padding: 2% 30%;
+}
+.left-box, .right-box{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 5px 25px;
+    background-color: #fb8351;
+    border: 0 solid #000;
+    border-radius: 8px;
+}

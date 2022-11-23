@@ -1,0 +1,28 @@
+.conteiner{
+    
+    padding: 2%;
+}
+.cat-list{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.card{
+    display: inline-block;
+    margin: 10px;
+}
+.card-body h4{
+    font-size: 18px;
+    text-align: left;
+}
+.card-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.card-subtitle{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0 5px;
+}

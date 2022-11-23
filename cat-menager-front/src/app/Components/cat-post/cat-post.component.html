@@ -1,0 +1,28 @@
+<div class="conteiner">
+    <div class="box">
+        <form action="http://localhost:8080/api/post" method="post">
+            <div class="left-side">
+                <h2>Cadastre um animal</h2>
+            <h3>Credencial de cadastramento</h3>
+            <input type="text" name="password" id="input_password">
+            <h3>Nome</h3>
+            <input type="text" name="name" id="input_name">
+            <h3>Idade</h3>
+            <input type="text" name="age" id="input_age">
+            <h3>Endereço de uma foto</h3>
+            <input type="text" name="image" id="input_src_image">
+            <h3>Raça</h3>
+            <input type="text" name="breed" id="input_breed">
+            <h3>Cor</h3>
+            <input type="text" name="color" id="input_color">
+            <h3><button>Cadastrar</button></h3>
+            </div>
+            <div class="right-side">
+                <h2>
+                    <img src="{{input_src_image}}" alt="Imagem do animal">
+                </h2>
+            </div>
+            
+        </form>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="conteiner">
+    <div class="cat-list">
+        <ng-container  *ngFor="let cat of cats">
+    
+            <div class="card" style="width: 18rem;">
+    
+                <img class="card-img-top" src="{{cat.image}}" alt="Card image cap">
+    
+                <div class="card-body">
+    
+                  <h5 class="card-title">{{cat.name}} - {{cat.age}}</h5>
+    
+                  <h5 class="card-subtitle">Nome:</h5>
+                  <h4>>{{cat.name}}</h4>
+                  <h5 class="card-subtitle">Raça:</h5>
+                  <h4>>{{cat.breed}}</h4>
+                  <h5 class="card-subtitle">Cor:</h5>
+                  <h4>>{{cat.color}}</h4>
+                  <h5 class="card-subtitle">Idade:</h5>
+                  <h4>>{{cat.age}}</h4>
+    
+                  <p class="card-text" style="display: none;">Descrição</p>
+    
+                  <a routerLink="../catPage/{{cat}}" class="btn btn-primary">Adotar</a>
+    
+                </div>
+            </div>
+        </ng-container>
+    </div>
+
+</div>
