@@ -6,16 +6,16 @@
             <!-- <h3>Credencial de cadastramento</h3>
             <input type="text" name="password" id="input_password"> -->
             <h3>Nome</h3>
-            <input type="text" name="name" id="input_name" formControlName="name">
+            <input type="text" name="name" id="input_name" required formControlName="name">
             <h3>Idade  (Meses)</h3>
-            <input type="text" name="age" id="input_age" formControlName="age">
+            <input type="text" name="age" id="input_age" required formControlName="age">
             <h3>Endereço de uma foto</h3>
-            <input type="text" name="image" id="input_src_image" formControlName="image">
+            <input type="text" name="image" id="input_src_image" required formControlName="image">
             <h3>Raça</h3>
-            <input type="text" name="breed" id="input_breed" formControlName="breed">
+            <input type="text" name="breed" id="input_breed" required formControlName="breed">
             <h3>Cor</h3>
-            <input type="text" name="color" id="input_color" formControlName="color">
-            <h3><button type="submit" routerLink="cat-list">Cadastrar</button></h3>
+            <input type="text" name="color" id="input_color" required formControlName="color">
+            <h3><button routerLink="/cat-list" type="submit">Cadastrar</button></h3>
             </div>
             <div class="right-side">
                 <h2>

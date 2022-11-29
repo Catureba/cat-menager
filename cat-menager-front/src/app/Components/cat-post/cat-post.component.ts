@@ -40,8 +40,7 @@ export class CatPostComponent implements OnInit{
     console.log(this.formCat.value);
     this.catService.postCat(this.formCat.value as Cat).subscribe();
     this.cadastroFeito()
+    alert('O seu cadastro foi realizado com sucesso!\n' + 'Agora você poderá ver seu gato na página de listagem, aguarde e seu gato aparecerá')
   }
-  cadastroFeito(){
-    alert('O seu cadastro foi realizado com sucesso!\n' + 'Redirecionaremos você para a página de listagem, aguarde e seu gato aparecerá')
-}
+  cadastroFeito(){}
 }
