@@ -10,6 +10,7 @@ nav h1,h2,li{
     display: inline-block;
 }
 li{
+    cursor: pointer;
     font-size: 18px;
     margin: 10px;
     color: white;

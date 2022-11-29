@@ -16,12 +16,12 @@
                   <h4>>{{cat.breed}}</h4>
                   <h5 class="card-subtitle">Cor:</h5>
                   <h4>>{{cat.color}}</h4>
-                  <h5 class="card-subtitle">Idade:</h5>
+                  <h5 class="card-subtitle">Idade (Meses):</h5>
                   <h4>>{{cat.age}}</h4>
     
                   <p class="card-text" style="display: none;">Descrição</p>
     
-                  <a routerLink="../catPage/{{cat}}" class="btn btn-primary">Adotar</a>
+                  <a href="https://api.whatsapp.com/send?phone=5571997255502&text=Ol%C3%A1%2C%20vi%20esse%20gatinho%20pelo%20site%20e%20gostaria%20de%20saber%20como%20adotar%3A%20{{cat.name}}" target="_blank" class="btn btn-primary">Adotar</a>
     
                 </div>
             </div>

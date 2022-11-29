@@ -1,21 +1,21 @@
 <div class="conteiner">
     <div class="box">
-        <form action="http://localhost:8080/api/post" method="post">
+        <form [formGroup]="formCat" (ngSubmit)="cadastrarCat()">
             <div class="left-side">
                 <h2>Cadastre um animal</h2>
-            <h3>Credencial de cadastramento</h3>
-            <input type="text" name="password" id="input_password">
+            <!-- <h3>Credencial de cadastramento</h3>
+            <input type="text" name="password" id="input_password"> -->
             <h3>Nome</h3>
-            <input type="text" name="name" id="input_name">
-            <h3>Idade</h3>
-            <input type="text" name="age" id="input_age">
+            <input type="text" name="name" id="input_name" formControlName="name">
+            <h3>Idade  (Meses)</h3>
+            <input type="text" name="age" id="input_age" formControlName="age">
             <h3>Endereço de uma foto</h3>
-            <input type="text" name="image" id="input_src_image">
+            <input type="text" name="image" id="input_src_image" formControlName="image">
             <h3>Raça</h3>
-            <input type="text" name="breed" id="input_breed">
+            <input type="text" name="breed" id="input_breed" formControlName="breed">
             <h3>Cor</h3>
-            <input type="text" name="color" id="input_color">
-            <h3><button>Cadastrar</button></h3>
+            <input type="text" name="color" id="input_color" formControlName="color">
+            <h3><button type="submit" routerLink="cat-list">Cadastrar</button></h3>
             </div>
             <div class="right-side">
                 <h2>

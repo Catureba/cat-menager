@@ -9,6 +9,8 @@ import { CatPostComponent } from './Components/cat-post/cat-post.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { HttpClientModule} from '@angular/common/http'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -20,9 +22,11 @@ import { HttpClientModule} from '@angular/common/http'
     FooterComponent
   ],
   imports: [
-    HttpClientModule,
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
