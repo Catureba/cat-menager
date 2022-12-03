@@ -1,17 +1,17 @@
-O Cat-Menager é uma aplicação criada em Angluar.js e SpringBoot para um projeto da faculdade
+O projeto Cat-Menager foi desenvolvido com Angluar.js e SpringBoot para um projeto da faculdade
 
-# Atenção
+# Pré-requisitos para executar localmente 
 
-Caso você pretenda rodar essa aplicação na sua maquina, você precisara das sequintes coisas:
+Para rodar essa aplicação na sua maquina complete a lista de requisitos abaixo
 - Um jdk, recomendamos o 17 por ser o mais estável atualmente;
-- Uma IDE que compile código java, recomendamos o Intellij, pois com ele você pode até instalar o jdk se não tiver instalado;
+- Uma IDE que compile código java, recomendo utilizar o Intellij caso não tenha preferencia por outra;
 - postgresql;
 - node;
 - angular instalado;
 
-Tendo os requerimentos acima, você terá que clonar o projeto para sua maquina
+Tendo os pré-requerimentos acima, você terá que clonar o projeto para sua maquina
 
-Para para que o front end do projeto seja executável, será necessário o seguinte comando na pasta frontend
+Para para que o front end do projeto seja executável, será necessário o seguinte comando na pasta cat-menager-front
 > npm install @angular/cli 
 
 
@@ -19,5 +19,5 @@ Para para que o front end do projeto seja executável, será necessário o segui
 Depois de "Rodar" o Back-end do projeto na IDE escolhida por você pode acessar a aplicação via browser com o frontend em agular, vá ao terminal e rode o seguinte comando
 >ng serve -o --poll=2000
 
-Nisso você vai no browser (caso ele não tenha sido aberto automaticamente) e acessa a seguinte url:
+Caso não tenha aberto automaticamente uma guia no navegador com o front, você pode acessar pela url abaixo
 > http://localhost:4200/
