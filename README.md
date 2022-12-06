@@ -3,7 +3,7 @@ O projeto Cat-Menager foi desenvolvido com Angluar.js e SpringBoot para um proje
 # Preview do projeto em funcionamento
 Ao clicar na imagem você será redirecionado ao vídeo de preview no youtube
 
-[![Vídeo do projeto em funcionamento](https://i9.ytimg.com/vi/e9r1RHdCk38/mqdefault.jpg?sqp=CICruJwG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFMgZShgMA8=&rs=AOn4CLA1AUhAyfjdU0yNzl4izPx78pmPdQ)](https://youtu.be/e9r1RHdCk38)
+[![Vídeo do projeto em funcionamento](https://i.ytimg.com/vi/e9r1RHdCk38/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhTIGUoYDAP&rs=AOn4CLBdqW3X86vMByxlq1k48f6AQ615GA)](https://youtu.be/e9r1RHdCk38)
 
 # Pré-requisitos para executar localmente 
 
